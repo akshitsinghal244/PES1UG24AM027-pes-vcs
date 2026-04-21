@@ -1,4 +1,4 @@
-// fuck you aghacommit.c — Commit creation and history traversal
+// fuckcommit.c — Commit creation and history traversal
 //
 // Commit object format (stored as text, one field per line):
 //
