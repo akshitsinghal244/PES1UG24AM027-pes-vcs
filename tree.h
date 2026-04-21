@@ -22,6 +22,8 @@ typedef struct {
     int count;
 } Tree;
 
+uint32_t get_file_mode(const char *path);
+
 // Parse raw tree object data (as read from the object store) into a Tree struct.
 int tree_parse(const void *data, size_t len, Tree *tree_out);
 

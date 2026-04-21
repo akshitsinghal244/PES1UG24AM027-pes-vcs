@@ -9,6 +9,7 @@
 // TODO functions:     object_write, object_read
 
 #include "pes.h"
+#include "object.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -60,7 +61,7 @@ int object_exists(const ObjectID *id) {
     return access(path, F_OK) == 0;
 }
 
-//── TODO: Implement these ──────────────────────────────────────────────────
+// ─── TODO: Implement these ──────────────────────────────────────────────────
 
 // Write an object to the store.
 //
