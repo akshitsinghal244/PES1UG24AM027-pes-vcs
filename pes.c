@@ -101,7 +101,7 @@ void cmd_log(void) {
     }
 }
 
-// ─── PROVIDED: Command dispatch ─────────────────────────────────────────────
+// ─── PROVIDED: Command dispatch ────────────────
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
@@ -130,4 +130,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-// hi
